@@ -77,6 +77,14 @@ set autoread
 set autowriteall
 autocmd FocusLost * silent! wall
 
+" ignore vendored files in ctrlp
+set wildignore+=*/vendor/cache/**
+set wildignore+=*/vendor/bundle/**
+set wildignore+=*/vendor/gems/**
+
+" no max file limit
+let g:ctrlp_max_files = 0
+
 " mute
 set visualbell
 set noerrorbells
