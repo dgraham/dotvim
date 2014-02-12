@@ -39,6 +39,9 @@ hi PmenuThumb   guifg=#000000    guibg=NONE       gui=NONE    ctermfg=black  cte
 hi Comment      guifg=#bcbcbc    guibg=NONE       gui=NONE    ctermfg=250    ctermbg=NONE   cterm=NONE
 hi htmlLink     guifg=NONE       guibg=NONE       gui=NONE    ctermfg=NONE   ctermbg=NONE   cterm=NONE
 
+" disable welcome intro
+set shortmess+=I
+
 " whitespace
 set expandtab
 set shiftwidth=2
