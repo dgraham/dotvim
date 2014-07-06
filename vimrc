@@ -140,6 +140,8 @@ autocmd BufRead,BufNewFile *.thor      set filetype=ruby
 autocmd BufRead,BufNewFile *.god       set filetype=ruby
 autocmd BufRead,BufNewFile Gemfile*    set filetype=ruby
 autocmd BufRead,BufNewFile Vagrantfile set filetype=ruby
+autocmd BufRead,BufNewFile *.c         setl expandtab shiftwidth=4 softtabstop=4 tabstop=4
+autocmd FileType make                  setl noexpandtab shiftwidth=8 softtabstop=8 tabstop=8
 
 " remove trailing whitespace on save
 function! RemoveWhitespace()
