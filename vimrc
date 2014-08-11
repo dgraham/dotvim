@@ -25,7 +25,7 @@ if has('gui_running')
 endif
 
 " colors
-if !has('gui_running')
+if !has('gui_running') || g:colors_name != 'xcode-low-key'
   hi Normal       guifg=#121212    guibg=#ffffff    gui=NONE    ctermfg=233    ctermbg=231    cterm=NONE
   hi NonText      guifg=#ffffff    guibg=#ffffff    gui=NONE    ctermfg=231    ctermbg=231    cterm=NONE
   hi LineNr       guifg=#e4e4e4    guibg=NONE       gui=NONE    ctermfg=254    ctermbg=NONE   cterm=NONE
