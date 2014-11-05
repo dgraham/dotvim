@@ -34,3 +34,6 @@
 [submodule "bundle/xcode-low-key-vim"]
 	path = bundle/xcode-low-key-vim
 	url = https://github.com/dgraham/xcode-low-key-vim.git
+[submodule "bundle/vim-toml"]
+	path = bundle/vim-toml
+	url = https://github.com/cespare/vim-toml
