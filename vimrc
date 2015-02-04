@@ -146,6 +146,7 @@ let g:NERDTreeChDirMode=2
 
 " filetypes
 autocmd BufRead,BufNewFile *.json      set filetype=javascript
+autocmd BufRead,BufNewFile *.md        set filetype=markdown
 autocmd BufRead,BufNewFile *.thor      set filetype=ruby
 autocmd BufRead,BufNewFile *.god       set filetype=ruby
 autocmd BufRead,BufNewFile Gemfile*    set filetype=ruby
