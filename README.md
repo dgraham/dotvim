@@ -1,3 +1,7 @@
+A tiny set of vim customizations.
+
+![MacVim](/images/MacVim.png)
+
 # Install
 
 ```
@@ -14,3 +18,7 @@ cd ~/.vim
 git pull
 git submodule update
 ```
+
+Icon based on [Ad Taylor's design][shoutout].
+
+[shoutout]: https://dribbble.com/shots/652546-MacVim-Replacement-Dock-Icon
