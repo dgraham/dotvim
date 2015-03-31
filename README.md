@@ -1,8 +1,10 @@
+# Vim configuration
+
 A tiny set of vim customizations.
 
 ![MacVim](/images/MacVim.png)
 
-# Install
+## Install
 
 ```
 git clone https://github.com/dgraham/dotvim.git ~/.vim
@@ -11,7 +13,7 @@ git submodule update --init
 ln -s ~/.vim/vimrc ~/.vimrc
 ```
 
-# Update
+## Update
 
 ```
 cd ~/.vim
