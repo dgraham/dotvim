@@ -22,9 +22,6 @@
 [submodule "bundle/base16-vim"]
 	path = bundle/base16-vim
 	url = https://github.com/chriskempson/base16-vim
-[submodule "bundle/rust.vim"]
-	path = bundle/rust.vim
-	url = https://github.com/wting/rust.vim.git
 [submodule "bundle/vim-less"]
 	path = bundle/vim-less
 	url = https://github.com/groenewege/vim-less
