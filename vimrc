@@ -126,6 +126,7 @@ noremap <leader>ev :vsplit $MYVIMRC<cr>
 noremap <leader>sv :source $MYVIMRC<cr>
 
 " ack search
+let g:ackprg = 'ag --vimgrep'
 noremap <leader>f :Ack!<space>
 
 " visual shifting
