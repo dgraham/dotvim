@@ -85,13 +85,15 @@ set autoread
 set autowriteall
 autocmd FocusLost * silent! wall
 
-" ignore vendored files in ctrlp
-set wildignore+=*/vendor/cache/**
-set wildignore+=*/vendor/bundle/**
-set wildignore+=*/vendor/gems/**
+" ignore binary files in filename completion
+set wildignore+=*.a,*.o
+set wildignore+=*.bmp,*.gif,*.ico,*.jpg,*.png
 
 " no max file limit
 let g:ctrlp_max_files = 0
+
+" ignore files in .gitignore
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
 " mute
 set visualbell
