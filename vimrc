@@ -111,6 +111,10 @@ vnoremap > >gv
 " clear highlighted search
 nmap <silent> <leader>/ :nohlsearch<cr>
 
+" fugitive
+noremap <leader>go :Gbrowse<cr>
+noremap <leader>gs :Gstatus<cr>
+
 " nerdtree
 map <leader>n :NERDTreeToggle<cr>
 map <leader>m :NERDTreeFind<cr>
