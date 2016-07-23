@@ -15,37 +15,10 @@ if has('gui_running')
   " fonts
   set guifont=Menlo:h11
   " set guifont=Source\ Code\ Pro:h13
-
-  " colors
-  set background=light
-  colorscheme xcode-low-key
-  " colorscheme base16-tomorrow
 endif
 
 " colors
-if !has('gui_running') || g:colors_name != 'xcode-low-key'
-  hi Normal       guifg=#121212    guibg=#ffffff    gui=NONE    ctermfg=233    ctermbg=231    cterm=NONE
-  hi NonText      guifg=#ffffff    guibg=#ffffff    gui=NONE    ctermfg=231    ctermbg=231    cterm=NONE
-  hi LineNr       guifg=#e4e4e4    guibg=NONE       gui=NONE    ctermfg=254    ctermbg=NONE   cterm=NONE
-  hi CursorLine   guifg=NONE       guibg=NONE       gui=NONE    ctermfg=NONE   ctermbg=NONE   cterm=NONE
-  hi Directory    guifg=#5f0087    guibg=NONE       gui=NONE    ctermfg=54     ctermbg=NONE   cterm=NONE
-  hi Search       guifg=NONE       guibg=#ffff00    gui=NONE    ctermfg=NONE   ctermbg=226    cterm=NONE
-  hi StatusLine   guifg=#080808    guibg=#eeeeee    gui=bold    ctermfg=232    ctermbg=255    cterm=bold
-  hi StatusLineNC guifg=#b2b2b2    guibg=#eeeeee    gui=NONE    ctermfg=249    ctermbg=255    cterm=NONE
-  hi VertSplit    guifg=#ffffff    guibg=#ffffff    gui=NONE    ctermfg=231    ctermbg=231    cterm=NONE
-  hi Visual       guifg=NONE       guibg=#afd7ff    gui=NONE    ctermfg=NONE   ctermbg=153    cterm=NONE
-  hi Pmenu        guifg=#ffffff    guibg=#262626    gui=NONE    ctermfg=231    ctermbg=235    cterm=NONE
-  hi PmenSbar     guifg=NONE       guibg=#444444    gui=NONE    ctermfg=NONE   ctermbg=238    cterm=NONE
-  hi PmenuSel     guifg=#ffffff    guibg=#afd7ff    gui=NONE    ctermfg=231    ctermbg=153    cterm=NONE
-  hi PmenuThumb   guifg=#000000    guibg=NONE       gui=NONE    ctermfg=black  ctermbg=NONE   cterm=NONE
-
-  hi NERDTreeDir  guifg=#000000    guibg=NONE       gui=bold    ctermfg=black  ctermbg=NONE   cterm=bold
-  hi NERDTreeCWD  guifg=#000000    guibg=NONE       gui=bold    ctermfg=black  ctermbg=NONE   cterm=bold
-
-  " syntax highlighting
-  hi Comment      guifg=#bcbcbc    guibg=NONE       gui=NONE    ctermfg=250    ctermbg=NONE   cterm=NONE
-  hi htmlLink     guifg=NONE       guibg=NONE       gui=NONE    ctermfg=NONE   ctermbg=NONE   cterm=NONE
-endif
+colorscheme xcode-low-key
 
 " disable welcome intro
 set shortmess+=I
