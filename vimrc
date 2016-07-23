@@ -59,7 +59,7 @@ set autowriteall
 autocmd FocusLost * silent! wall
 
 " ignore binary files in filename completion
-set wildignore+=*.a,*.o
+set wildignore+=*.a,*.o,*.gz,*.zip
 set wildignore+=*.bmp,*.gif,*.ico,*.jpg,*.png
 
 " no max file limit
