@@ -2,7 +2,7 @@
 
 A tiny set of vim customizations.
 
-![xcode-low-key-vim](https://cloud.githubusercontent.com/assets/122102/17079603/6f3b0d38-50d2-11e6-943d-22b0289ed1c8.png)
+![xcode-low-key-vim](https://cloud.githubusercontent.com/assets/122102/17079594/fcf8e34e-50d1-11e6-8d4a-7648412bbcd7.png)
 
 ## Install
 
