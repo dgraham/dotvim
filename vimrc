@@ -135,6 +135,11 @@ autocmd BufRead,BufNewFile *.cc        setl expandtab shiftwidth=4 softtabstop=4
 autocmd BufRead,BufNewFile *.cpp       setl expandtab shiftwidth=4 softtabstop=4 tabstop=4
 autocmd FileType make                  setl noexpandtab shiftwidth=8 softtabstop=8 tabstop=8
 
+" rustfmt
+noremap <leader>rf :RustFmt<cr>
+let g:rustfmt_autosave = 0
+let g:rustfmt_options = "--skip-children"
+
 " remove trailing whitespace on save
 function! RemoveWhitespace()
   let view=winsaveview()
