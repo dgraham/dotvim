@@ -100,9 +100,10 @@ nnoremap <silent> <down>  <c-w>j
 noremap <leader>ev :vsplit $MYVIMRC<cr>
 noremap <leader>sv :source $MYVIMRC<cr>
 
-" ack search
-let g:ackprg = 'ag --vimgrep'
-noremap <leader>f :Ack!<space>
+" ripgrep search
+set grepprg=rg\ --vimgrep\ --type-add\ sass:*.scss\ --type-add\ erb:*.erb
+command! -nargs=+ -complete=file -bar Rg silent! grep! <args> | cwindow | redraw!
+noremap <leader>f :Rg<space>
 
 " visual shifting
 vnoremap < <gv
