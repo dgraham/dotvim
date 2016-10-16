@@ -106,7 +106,7 @@ command! -nargs=+ -complete=file -bar Rg silent! grep! <args> | cwindow | redraw
 noremap <leader>f :Rg<space>
 
 " search word under cursor
-nnoremap <silent> K :silent! :grep! "\b<c-r><c-w>\b"<cr>:cwindow<cr>:redraw!<cr>
+nnoremap <silent> K :silent! :grep! -w "<c-r><c-w>"<cr>:cwindow<cr>:redraw!<cr>
 
 " visual shifting
 vnoremap < <gv
