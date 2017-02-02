@@ -104,7 +104,7 @@ noremap <leader>ev :vsplit $MYVIMRC<cr>
 noremap <leader>sv :source $MYVIMRC<cr>
 
 " ripgrep search
-set grepprg=rg\ --vimgrep\ --type-add\ sass:*.scss\ --type-add\ erb:*.erb
+set grepprg=rg\ --vimgrep\ --type-add\ erb:*.erb
 command! -nargs=+ -complete=file -bar Rg silent! grep! <args> | cwindow | redraw!
 noremap <leader>f :Rg<space>
 
