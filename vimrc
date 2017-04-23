@@ -147,6 +147,9 @@ noremap <leader>rf :RustFmt<cr>
 let g:rustfmt_autosave = 0
 let g:rustfmt_options = "--skip-children"
 
+" racer
+let g:racer_experimental_completer = 1
+
 " remove trailing whitespace on save
 function! RemoveWhitespace()
   let view=winsaveview()
