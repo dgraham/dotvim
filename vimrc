@@ -93,11 +93,16 @@ endif
 " leader for custom mappings
 let mapleader=','
 
-" arrows navigate splits
+" navigate split windows
 nnoremap <silent> <left>  <c-w>h
 nnoremap <silent> <right> <c-w>l
 nnoremap <silent> <up>    <c-w>k
 nnoremap <silent> <down>  <c-w>j
+
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
 
 " edit and reload .vimrc
 noremap <leader>ev :vsplit $MYVIMRC<cr>
