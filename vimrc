@@ -127,6 +127,9 @@ nmap <silent> <leader>/ :nohlsearch<cr>
 noremap <leader>go :Gbrowse<cr>
 noremap <leader>gs :Gstatus<cr>
 
+" ctags
+nnoremap <silent> <f5> :silent ! git ls-files \| ctags --tag-relative -L - -f `git rev-parse --git-dir`/tags --languages=ruby 2> /dev/null &<cr>:redraw!<cr>
+
 " nerdtree
 map <leader>n :NERDTreeToggle<cr>
 map <leader>m :NERDTreeFind<cr>
