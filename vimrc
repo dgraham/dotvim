@@ -159,7 +159,8 @@ let g:racer_experimental_completer = 1
 
 " prettier
 let g:prettier#exec_cmd_async = 1
-let g:prettier#config#print_width = 100
+let g:prettier#config#bracket_spacing = 'false'
+let g:prettier#config#single_quote = 'true'
 let g:prettier#config#trailing_comma = 'none'
 
 " remove trailing whitespace on save
