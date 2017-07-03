@@ -93,6 +93,9 @@ endif
 " leader for custom mappings
 let mapleader=','
 
+" repeat find in reverse
+noremap \ ,
+
 " navigate split windows
 nnoremap <silent> <left>  <c-w>h
 nnoremap <silent> <right> <c-w>l
