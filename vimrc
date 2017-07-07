@@ -72,8 +72,7 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standar
 let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 
 " mute
-set visualbell
-set noerrorbells
+set belloff=all
 
 set laststatus=2 " status line
 set ruler        " cursor location
