@@ -40,3 +40,6 @@
 [submodule "bundle/vim-prettier"]
 	path = bundle/vim-prettier
 	url = https://github.com/mitermayer/vim-prettier.git
+[submodule "bundle/vim-flow"]
+	path = bundle/vim-flow
+	url = https://github.com/flowtype/vim-flow
