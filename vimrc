@@ -148,6 +148,10 @@ autocmd FileType cpp    setl expandtab shiftwidth=4 softtabstop=4 tabstop=4
 autocmd FileType make   setl noexpandtab shiftwidth=8 softtabstop=8 tabstop=8
 autocmd FileType rust   compiler cargo
 
+" eslint
+noremap <leader>l  :make % <cr>:cwindow<cr>:redraw!<cr>
+noremap <leader>lf :make --fix % <cr>:cwindow<cr>:redraw!<cr>
+
 " rustfmt
 noremap <leader>rf :RustFmt<cr>
 let g:rustfmt_autosave = 0

@@ -43,3 +43,6 @@
 [submodule "bundle/vim-flow"]
 	path = bundle/vim-flow
 	url = https://github.com/flowtype/vim-flow
+[submodule "bundle/vim-eslint"]
+	path = bundle/vim-eslint
+	url = https://github.com/dgraham/vim-eslint
