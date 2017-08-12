@@ -146,6 +146,7 @@ let g:NERDTreeChDirMode=2
 autocmd FileType c      setl expandtab shiftwidth=4 softtabstop=4 tabstop=4
 autocmd FileType cpp    setl expandtab shiftwidth=4 softtabstop=4 tabstop=4
 autocmd FileType make   setl noexpandtab shiftwidth=8 softtabstop=8 tabstop=8
+autocmd FileType ruby   compiler ruby
 autocmd FileType rust   compiler cargo
 
 " eslint
