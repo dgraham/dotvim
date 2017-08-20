@@ -4,6 +4,9 @@ syntax on                 " syntax highlighting
 filetype plugin on        " auto detect file types
 filetype indent on        " auto indent lines
 
+" packages
+packadd! matchit
+
 " macvim
 if has('gui_running')
   set guioptions-=T       " remove toolbar
