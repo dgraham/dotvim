@@ -25,6 +25,7 @@ colorscheme xcode-low-key
 
 " disable welcome intro
 set shortmess+=I
+set shortmess+=s
 
 " whitespace
 set expandtab
