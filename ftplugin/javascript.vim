@@ -5,6 +5,7 @@ noremap <buffer> <leader>lf :make --fix % <cr>:cwindow<cr>:redraw!<cr>
 noremap <buffer> <leader>t :FlowType<cr>
 
 let g:flow#autoclose = 1
+let g:flow#flowpath = './node_modules/.bin/flow'
 
 let g:prettier#exec_cmd_async = 1
 let g:prettier#config#bracket_spacing = 'false'
