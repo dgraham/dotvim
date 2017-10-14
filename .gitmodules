@@ -1,51 +1,51 @@
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
+[submodule "nerdtree"]
+	path = pack/plugins/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "bundle/vim-coffee-script"]
-	path = bundle/vim-coffee-script
+[submodule "vim-coffee-script"]
+	path = pack/plugins/start/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
-[submodule "bundle/vim-commentary"]
-	path = bundle/vim-commentary
+[submodule "vim-commentary"]
+	path = pack/plugins/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
-[submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
+[submodule "vim-fugitive"]
+	path = pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "bundle/base16-vim"]
-	path = bundle/base16-vim
+[submodule "base16-vim"]
+	path = pack/plugins/start/base16-vim
 	url = https://github.com/chriskempson/base16-vim
-[submodule "bundle/xcode-low-key-vim"]
-	path = bundle/xcode-low-key-vim
+[submodule "xcode-low-key-vim"]
+	path = pack/plugins/start/xcode-low-key-vim
 	url = https://github.com/dgraham/xcode-low-key-vim.git
-[submodule "bundle/vim-toml"]
-	path = bundle/vim-toml
+[submodule "vim-toml"]
+	path = pack/plugins/start/vim-toml
 	url = https://github.com/cespare/vim-toml
-[submodule "bundle/ctrlp.vim"]
-	path = bundle/ctrlp.vim
+[submodule "ctrlp.vim"]
+	path = pack/plugins/start/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim
-[submodule "bundle/ctrlp-py-matcher"]
-	path = bundle/ctrlp-py-matcher
+[submodule "ctrlp-py-matcher"]
+	path = pack/plugins/start/ctrlp-py-matcher
 	url = https://github.com/FelikZ/ctrlp-py-matcher
-[submodule "bundle/vim-mustache"]
-	path = bundle/vim-mustache
+[submodule "vim-mustache"]
+	path = pack/plugins/start/vim-mustache
 	url = https://github.com/mustache/vim-mustache-handlebars.git
-[submodule "bundle/vim-racer"]
-	path = bundle/vim-racer
+[submodule "vim-racer"]
+	path = pack/plugins/start/vim-racer
 	url = https://github.com/racer-rust/vim-racer.git
-[submodule "bundle/vim-rhubarb"]
-	path = bundle/vim-rhubarb
+[submodule "vim-rhubarb"]
+	path = pack/plugins/start/vim-rhubarb
 	url = https://github.com/tpope/vim-rhubarb.git
-[submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
+[submodule "vim-surround"]
+	path = pack/plugins/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "bundle/vim-prettier"]
-	path = bundle/vim-prettier
+[submodule "vim-prettier"]
+	path = pack/plugins/start/vim-prettier
 	url = https://github.com/mitermayer/vim-prettier.git
-[submodule "bundle/vim-flow"]
-	path = bundle/vim-flow
+[submodule "vim-flow"]
+	path = pack/plugins/start/vim-flow
 	url = https://github.com/flowtype/vim-flow
-[submodule "bundle/vim-eslint"]
-	path = bundle/vim-eslint
+[submodule "vim-eslint"]
+	path = pack/plugins/start/vim-eslint
 	url = https://github.com/dgraham/vim-eslint
-[submodule "pack/plugins/start/vim-go"]
+[submodule "vim-go"]
 	path = pack/plugins/start/vim-go
 	url = https://github.com/fatih/vim-go.git

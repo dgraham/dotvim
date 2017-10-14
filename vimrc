@@ -1,5 +1,4 @@
 set nocompatible          " vim defaults, not vi
-call pathogen#infect()    " use pathogen to manage plugins
 syntax on                 " syntax highlighting
 filetype plugin on        " auto detect file types
 filetype indent on        " auto indent lines
