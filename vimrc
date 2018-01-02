@@ -17,6 +17,8 @@ if has('gui_running')
   " fonts
   set guifont=Menlo:h11
   " set guifont=Source\ Code\ Pro:h13
+  " set guifont=SF\ Mono:h13
+  set linespace=2
 endif
 
 " colors
