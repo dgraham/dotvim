@@ -1,3 +1,5 @@
+noremap <buffer> <leader>p :ClangFormat<cr>
+
 setlocal expandtab
 setlocal shiftwidth=4
 setlocal softtabstop=4

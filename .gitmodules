@@ -49,3 +49,6 @@
 [submodule "vim-go"]
 	path = pack/plugins/start/vim-go
 	url = https://github.com/fatih/vim-go.git
+[submodule "pack/plugins/start/vim-clang-format"]
+	path = pack/plugins/start/vim-clang-format
+	url = https://github.com/rhysd/vim-clang-format

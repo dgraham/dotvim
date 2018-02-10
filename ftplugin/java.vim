@@ -1,5 +1,6 @@
 compiler javac
 
+noremap <buffer> <leader>p :ClangFormat<cr>
 noremap <buffer> <silent> <leader>c :silent! :make % -Xlint:unchecked<cr>:cwindow<cr>:redraw!<cr>
 noremap <buffer> <leader>r :!java -cp . %:r<cr>
 
