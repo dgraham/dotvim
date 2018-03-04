@@ -6,7 +6,5 @@ noremap <buffer> <leader>r :make run<cr>
 noremap <buffer> <leader>t :make test<cr>
 
 let g:rustfmt_autosave = 0
-let g:rustfmt_command = "rustup run nightly rustfmt"
 let g:rustfmt_options = "--skip-children"
-
 let g:racer_experimental_completer = 1
