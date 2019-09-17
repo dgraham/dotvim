@@ -136,6 +136,7 @@ noremap <leader>gs :Gstatus<cr>
 
 " ctags
 nnoremap <silent> <f5> :silent ! git ls-files \| ctags --tag-relative -L - -f `git rev-parse --git-dir`/tags --languages=ruby 2> /dev/null &<cr>:redraw!<cr>
+set tags^=./.git/tags;
 
 " expand active file directory
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
