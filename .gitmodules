@@ -55,3 +55,6 @@
 [submodule "pack/plugins/start/vim-scores"]
 	path = pack/plugins/start/vim-scores
 	url = https://github.com/dgraham/vim-scores
+[submodule "pack/plugins/start/rust.vim"]
+	path = pack/plugins/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim
