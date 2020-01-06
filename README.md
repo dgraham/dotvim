@@ -18,5 +18,6 @@ ln -s ~/.vim/vimrc ~/.vimrc
 ```
 cd ~/.vim
 git pull
+git submodule init
 git submodule update
 ```
