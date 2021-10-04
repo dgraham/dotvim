@@ -131,8 +131,8 @@ vnoremap > >gv
 nmap <silent> <leader>/ :nohlsearch<cr>
 
 " fugitive
-noremap <leader>go :Gbrowse<cr>
-noremap <leader>gs :Gstatus<cr>
+noremap <leader>go :GBrowse<cr>
+noremap <leader>gs :Git<cr>
 
 " ctags
 nnoremap <silent> <f5> :silent ! git ls-files \| ctags --tag-relative -L - -f `git rev-parse --git-dir`/tags --languages=ruby 2> /dev/null &<cr>:redraw!<cr>
