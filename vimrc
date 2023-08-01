@@ -5,6 +5,12 @@ filetype indent on        " auto indent lines
 
 " packages
 packadd! matchit
+if has('nvim')
+  packadd! nvim-lspconfig
+  packadd! nvim-treesitter
+  packadd! nvim-treesitter-textobjects
+  packadd! nvim-treesitter-refactor
+end
 
 " macvim
 if has('gui_running')
