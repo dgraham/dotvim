@@ -1,5 +1,7 @@
 set nocompatible          " vim defaults, not vi
-syntax on                 " syntax highlighting
+if !has('nvim')
+  syntax on               " syntax highlighting
+end
 filetype plugin on        " auto detect file types
 filetype indent on        " auto indent lines
 
@@ -10,6 +12,7 @@ if has('nvim')
   packadd! nvim-treesitter
   packadd! nvim-treesitter-textobjects
   packadd! nvim-treesitter-refactor
+  packadd! nvim-treesitter-playground
 end
 
 " macvim
