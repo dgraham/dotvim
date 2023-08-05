@@ -11,6 +11,8 @@ git clone https://github.com/dgraham/dotvim.git ~/.vim
 cd ~/.vim
 git submodule update --init
 ln -s ~/.vim/vimrc ~/.vimrc
+mkdir -p ~/.config/nvim
+ln -s ~/.vim/lua/init.lua ~/.config/nvim/init.lua
 ```
 
 ## Update
