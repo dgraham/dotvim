@@ -24,8 +24,6 @@ if has('gui_running')
   set gcr=a:blinkon0      " disable cursor blink
 
   " fonts
-  set guifont=Menlo:h11
-  " set guifont=Source\ Code\ Pro:h13
   " set guifont=SF\ Mono:h13
   set linespace=2
 endif
@@ -88,11 +86,12 @@ let g:ctrlp_match_func = { 'match': 'scores#ScoreMatch' }
 " mute
 set belloff=all
 
-set laststatus=2 " status line
-set ruler        " cursor location
-set cursorline   " highlight current row
-set number       " line numbers
-set scrolloff=3  " lines shown above/below current line
+set laststatus=2   " status line
+set ruler          " cursor location
+set cursorline     " highlight current row
+set number         " line numbers
+set scrolloff=3    " lines shown above/below current line
+set signcolumn=yes " stable gutter width
 
 " disable .swp files
 set noswapfile
@@ -149,6 +148,12 @@ set tags^=./.git/tags;
 
 " expand active file directory
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+
+" signs
+sign define DiagnosticSignError text=🔴 texthl=DiagnosticSignError linehl= numhl=
+sign define DiagnosticSignWarn text=🟡 texthl=DiagnosticSignWarn linehl= numhl=
+sign define DiagnosticSignInfo text=🔵 texthl=DiagnosticSignInfo linehl= numhl=
+sign define DiagnosticSignHint text=⚪️ texthl=DiagnosticSignHint linehl= numhl=
 
 " nerdtree
 map <leader>n :NERDTreeToggle<cr>
