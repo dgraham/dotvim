@@ -5,7 +5,9 @@ source ~/.vimrc
 ]])
 
 require'lspconfig'.tsserver.setup{}
+require'lspconfig'.eslint.setup{}
 -- require'lspconfig'.ruby_ls.setup{}
+require'lspconfig'.rubocop.setup{}
 require'lspconfig'.solargraph.setup{}
 
 -- Global mappings.
