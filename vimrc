@@ -86,12 +86,13 @@ let g:ctrlp_match_func = { 'match': 'scores#ScoreMatch' }
 " mute
 set belloff=all
 
-set laststatus=2   " status line
-set ruler          " cursor location
-set cursorline     " highlight current row
-set number         " line numbers
-set scrolloff=3    " lines shown above/below current line
-set signcolumn=yes " stable gutter width
+set laststatus=2    " status line
+set ruler           " cursor location
+set cursorline      " highlight current row
+set number          " line numbers
+set scrolloff=3     " lines shown above/below current line
+set signcolumn=yes  " stable gutter width
+set fillchars=eob:\ " remove blank line tilde
 
 " disable .swp files
 set noswapfile
