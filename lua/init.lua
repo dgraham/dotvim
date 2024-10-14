@@ -147,4 +147,8 @@ require'nvim-treesitter.configs'.setup {
       include_surrounding_whitespace = false,
     },
   },
+
+  matchup = {
+    enable = true,
+  },
 }

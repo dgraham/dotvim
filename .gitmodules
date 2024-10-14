@@ -76,3 +76,6 @@
 [submodule "pack/plugins/opt/nvim-treesitter-playground"]
 	path = pack/plugins/opt/nvim-treesitter-playground
 	url = https://github.com/nvim-treesitter/playground
+[submodule "pack/plugins/start/vim-matchup"]
+	path = pack/plugins/start/vim-matchup
+	url = https://github.com/andymass/vim-matchup
