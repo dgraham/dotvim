@@ -7,8 +7,10 @@ source ~/.vimrc
 require'lspconfig'.ts_ls.setup{}
 require'lspconfig'.eslint.setup{}
 -- require'lspconfig'.ruby_ls.setup{}
-require'lspconfig'.rubocop.setup{}
-require'lspconfig'.solargraph.setup{}
+require'lspconfig'.rubocop.setup{
+  cmd = { 'bundle', 'exec', 'rubocop', '--lsp' },
+}
+-- require'lspconfig'.solargraph.setup{}
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
