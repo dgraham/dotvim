@@ -10,7 +10,6 @@ require'lspconfig'.eslint.setup{}
 require'lspconfig'.rubocop.setup{
   cmd = { 'bundle', 'exec', 'rubocop', '--lsp' },
 }
--- require'lspconfig'.solargraph.setup{}
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
