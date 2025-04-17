@@ -6,6 +6,7 @@ source ~/.vimrc
 
 require'lspconfig'.ts_ls.setup{}
 require'lspconfig'.eslint.setup{}
+require'lspconfig'.gopls.setup{}
 require'lspconfig'.ruby_lsp.setup{}
 -- require'lspconfig'.rubocop.setup{
   -- cmd = { 'bundle', 'exec', 'rubocop', '--lsp' },
