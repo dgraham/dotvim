@@ -151,10 +151,12 @@ set tags^=./.git/tags;
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 
 " signs
-sign define DiagnosticSignError text=✸ texthl=DiagnosticSignError linehl= numhl=
-sign define DiagnosticSignWarn text=✸ texthl=DiagnosticSignWarn linehl= numhl=
-sign define DiagnosticSignInfo text=✸ texthl=DiagnosticSignInfo linehl= numhl=
-sign define DiagnosticSignHint text=✸ texthl=DiagnosticSignHint linehl= numhl=
+if !has('nvim')
+  sign define DiagnosticSignError text=✸ texthl=DiagnosticSignError linehl= numhl=
+  sign define DiagnosticSignWarn text=✸ texthl=DiagnosticSignWarn linehl= numhl=
+  sign define DiagnosticSignInfo text=✸ texthl=DiagnosticSignInfo linehl= numhl=
+  sign define DiagnosticSignHint text=✸ texthl=DiagnosticSignHint linehl= numhl=
+end
 
 " nerdtree
 map <leader>n :NERDTreeToggle<cr>

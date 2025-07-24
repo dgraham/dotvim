@@ -4,13 +4,14 @@ let &packpath=&runtimepath
 source ~/.vimrc
 ]])
 
-require'lspconfig'.ts_ls.setup{}
-require'lspconfig'.eslint.setup{}
-require'lspconfig'.gopls.setup{}
-require'lspconfig'.ruby_lsp.setup{}
--- require'lspconfig'.rubocop.setup{
-  -- cmd = { 'bundle', 'exec', 'rubocop', '--lsp' },
+vim.lsp.enable('ts_ls')
+vim.lsp.enable('eslint')
+vim.lsp.enable('gopls')
+vim.lsp.enable('ruby_lsp')
+-- vim.lsp.config['rubocop'] = {
+--   cmd = { 'bundle', 'exec', 'rubocop', '--lsp' },
 -- }
+-- vim.lsp.enable('rubocop')
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
@@ -154,3 +155,14 @@ require'nvim-treesitter.configs'.setup {
     enable = true,
   },
 }
+
+vim.diagnostic.config({
+  signs = {
+    text = {
+      [vim.diagnostic.severity.ERROR] = "✸",
+      [vim.diagnostic.severity.WARN]  = "✸",
+      [vim.diagnostic.severity.INFO]  = "✸",
+      [vim.diagnostic.severity.HINT]  = "✸",
+    },
+  },
+})
