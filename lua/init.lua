@@ -8,6 +8,7 @@ vim.lsp.enable('ts_ls')
 vim.lsp.enable('eslint')
 vim.lsp.enable('gopls')
 vim.lsp.enable('ruby_lsp')
+vim.lsp.enable('rust_analyzer')
 -- vim.lsp.config['rubocop'] = {
 --   cmd = { 'bundle', 'exec', 'rubocop', '--lsp' },
 -- }
