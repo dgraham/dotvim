@@ -82,3 +82,6 @@
 [submodule "pack/plugins/start/copilot.vim"]
 	path = pack/plugins/start/copilot.vim
 	url = https://github.com/github/copilot.vim
+[submodule "pack/plugins/start/llama.vim"]
+	path = pack/plugins/start/llama.vim
+	url = https://github.com/ggml-org/llama.vim.git
