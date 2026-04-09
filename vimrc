@@ -9,10 +9,6 @@ filetype indent on        " auto indent lines
 packadd! matchit
 if has('nvim')
   packadd! nvim-lspconfig
-  packadd! nvim-treesitter
-  packadd! nvim-treesitter-textobjects
-  packadd! nvim-treesitter-refactor
-  packadd! nvim-treesitter-playground
 end
 
 " macvim
