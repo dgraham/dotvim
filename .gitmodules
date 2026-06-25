@@ -1,18 +1,12 @@
 [submodule "nerdtree"]
 	path = pack/plugins/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "vim-coffee-script"]
-	path = pack/plugins/start/vim-coffee-script
-	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "vim-commentary"]
 	path = pack/plugins/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
 [submodule "vim-fugitive"]
 	path = pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "base16-vim"]
-	path = pack/plugins/start/base16-vim
-	url = https://github.com/chriskempson/base16-vim
 [submodule "xcode-low-key-vim"]
 	path = pack/plugins/start/xcode-low-key-vim
 	url = https://github.com/dgraham/xcode-low-key-vim.git
@@ -37,12 +31,6 @@
 [submodule "vim-surround"]
 	path = pack/plugins/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "vim-prettier"]
-	path = pack/plugins/start/vim-prettier
-	url = https://github.com/mitermayer/vim-prettier.git
-[submodule "vim-flow"]
-	path = pack/plugins/start/vim-flow
-	url = https://github.com/flowtype/vim-flow
 [submodule "vim-eslint"]
 	path = pack/plugins/start/vim-eslint
 	url = https://github.com/dgraham/vim-eslint
