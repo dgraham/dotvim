@@ -5,9 +5,9 @@ source ~/.vimrc
 ]])
 
 vim.lsp.enable('ts_ls')
-vim.lsp.enable('eslint')
 vim.lsp.enable('gopls')
 vim.lsp.enable('oxfmt')
+vim.lsp.enable('oxlint')
 vim.lsp.enable('ruby_lsp')
 vim.lsp.enable('rust_analyzer')
 vim.lsp.enable('sourcekit')
