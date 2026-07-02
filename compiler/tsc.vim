@@ -3,5 +3,5 @@ if exists("current_compiler")
 endif
 let current_compiler = "tsc"
 
-CompilerSet makeprg=npx\ --no-install\ --quiet\ tsc\ --pretty\ false\ $*
+CompilerSet makeprg=tsc\ --pretty\ false\ $*
 CompilerSet errorformat=%f(%l\\\,%c):\ %m
