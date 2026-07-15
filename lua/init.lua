@@ -1,7 +1,7 @@
 vim.cmd([[
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
 let &packpath=&runtimepath
-source ~/.vimrc
+source ~/.vim/vimrc
 ]])
 
 vim.lsp.enable('ts_ls')
@@ -15,6 +15,9 @@ vim.lsp.enable('sourcekit')
 --   cmd = { 'bundle', 'exec', 'rubocop', '--lsp' },
 -- }
 -- vim.lsp.enable('rubocop')
+
+vim.o.pumborder = "single"
+vim.o.winborder = "single"
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
